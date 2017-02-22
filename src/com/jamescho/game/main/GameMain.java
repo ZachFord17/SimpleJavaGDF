@@ -47,7 +47,9 @@ class CrappyPanel extends JPanel {
 
         g.setColor(Color.BLUE);
         g.fillRect(0,0,100,100);
+        g.setColor(Color.WHITE);
 
+        g.fillRect(50 ,50,100,100);
         g.setColor(Color.GREEN);
         g.drawRect(50,50,100,100);
 
